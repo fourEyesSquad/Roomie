@@ -82,3 +82,55 @@ This is an app that helps people who are living together to easily assign day-to
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 ![alt text](https://github.com/fourEyesSquad/Roomie/blob/main/wireframe.png)
+
+
+## Schema
+
+### Models
+
+
+#### Log In
+| Property       | Type         |Description  |
+| :------------- | :----------- | :----------- |
+|username | String | username of the user|
+| password  | String | password entered by the user |
+
+#### Register
+| Property       | Type         |Description  |
+| :------------- | :----------- | :----------- |
+| username | String | username of the user|
+| email | String | email of the user|
+| password  | String | password entered by the user |
+
+#### Group Join/ Creation
+| Property       | Type         |Description  |
+| :------------- | :----------- | :----------- |
+| groupID | String |the unique group Id|
+| member | Pointer to User | The user associated to the room|
+
+
+#### Tasks
+| Property       | Type         |Description  |
+| :------------- | :----------- | :----------- |
+|  taskDescription    | String   | description of the task   |
+|  taskID     | String   | unique ID for each task   |
+|  groupID | String  | unique ID for the group    |
+|  author | Pointer to User | author of the task    |
+| assignee| Pointer to User   | person assigned to the task  |
+| createdAt  | DateTime| date when post is created (default field) |
+|updatedAt|DateTime |date when task is last updated (default field)|
+| completed  | boolean | true if the task is completed |
+### Networking
+#### List of network requests by screen
+* Task Screen
+    * (read/GET) Query a list of tasks a group have.
+    * (create/POST) Create a new task.
+    * (delete) Delete existing task.
+    * (edit) Mark a task as complete.
+* Log in/Sign up Screen
+    * (read/GET) Query a list of registered users
+* Sign up Screen
+    * (create/POST) post and store user data to backend
+* Room Join/Creation Screen
+    * (read/GET) Query a list of registered rooms.
+    * (create/POST) Create a room and store in the backend.
