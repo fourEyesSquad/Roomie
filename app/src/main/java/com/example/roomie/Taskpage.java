@@ -13,6 +13,6 @@ public class Taskpage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_taskpage);
-        rvTask = findViewById(R.id.rvTweet);
+        rvTask = findViewById(R.id.rvTask);
     }
 }
