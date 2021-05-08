@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Roomie">
+        <activity android:name=".Task"></activity>
+        <activity android:name=".Taskpage" />
         <activity android:name=".roomActivity"></activity>
         <activity android:name=".LoginActivity"></activity>
         <activity
