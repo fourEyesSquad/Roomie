@@ -32,21 +32,21 @@ This is an app that helps people who are living together to easily assign day-to
 
 **Required Must-have Stories**
 
-* User can sign up.
-* User can login and logout.
-* User can create groups.
-* User can join groups.
-* User can create new tasks.
-* User can assign tasks.
-* User can mark task as completed.
+- [ ] User can sign up.
+- [ ] User can login and logout.
+- [ ] User can create groups.
+- [ ] User can join groups.
+- [ ] User can create new tasks.
+- [ ] User can assign tasks.
+- [ ] User can mark task as completed.
 
 **Optional Nice-to-have Stories**
 
-* User can create recurring tasks.
-* User can receive notifications and reminders of their tasks.
-* User can be assigned reward points based on tasks completed.
-* User can have access to task history.
-* User can edit tasks.
+- [ ] User can create recurring tasks.
+- [ ] User can receive notifications and reminders of their tasks.
+- [ ] User can be assigned reward points based on tasks completed.
+- [ ] User can have access to task history.
+- [ ] User can edit tasks.
 
 ### 2. Screen Archetypes
 
