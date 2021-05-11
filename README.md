@@ -31,8 +31,8 @@ This is an app that helps people who are living together to easily assign day-to
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-- [ ] User can sign up.
+(Unit 10 Update: Layout files created. Front end of all of the stories done. GIFs can be find here: https://github.com/fourEyesSquad/Roomie/tree/main/GIFs)
+- [ ] User can sign up
 - [ ] User can login and logout.
 - [ ] User can create groups.
 - [ ] User can join groups.
