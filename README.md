@@ -3,7 +3,7 @@ Original App Design Project - README Template
 
 # Roomie
 
-Team members: Jiangxue Han, Anubhuv Sharma, Kevin Sang, Yikang Lin
+Team members: Jiangxue Han, Anubhav Sharma, Kevin Sang, Yikang Lin
 
 ## Table of Contents
 1. [Overview](#Overview)
