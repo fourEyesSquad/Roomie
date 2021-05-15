@@ -2,6 +2,7 @@ package com.example.roomie;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -41,6 +42,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i(TAG, "onClick login button");
 //              TODO: Go to Signup Page
+                Intent myIntent = new Intent(v.getContext(), SignupActivity.class);
+                startActivity(myIntent);
             }
         });
 
