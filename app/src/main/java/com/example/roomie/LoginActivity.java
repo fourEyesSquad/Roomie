@@ -1,5 +1,6 @@
 package com.example.roomie;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -50,7 +51,13 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.i(TAG, "onClick login button");
+
+//              TODO: Go to Signup Page
+                Intent myIntent = new Intent(v.getContext(), SignupActivity.class);
+                startActivity(myIntent);
+
                 goSignUpActivity();
+
             }
         });
 
