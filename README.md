@@ -33,7 +33,7 @@ This is an app that helps people who are living together to easily assign day-to
 **Required Must-have Stories**
 (GIFs can be find here: https://github.com/fourEyesSquad/Roomie/tree/main/GIFs)
 (Unit 10 Update: Layout files created. Front end of all of the stories done.)
-(Unit 11 Update: Navigation done on SignupActivity and LoginActivity.)
+(Unit 11 Update: Navigation done on SignupActivity and LoginActivity. Since the networking and backend is not complete, we cannot check any of the stories off.)
 
 - [ ] User can sign up
 - [ ] User can login and logout.
