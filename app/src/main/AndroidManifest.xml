@@ -13,6 +13,7 @@
         <activity android:name=".Taskpage" />
         <activity android:name=".roomActivity"></activity>
         <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".SignupActivity"></activity>
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
