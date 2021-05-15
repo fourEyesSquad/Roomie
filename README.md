@@ -31,22 +31,22 @@ This is an app that helps people who are living together to easily assign day-to
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User can sign up.
-* User can login and logout.
-* User can create groups.
-* User can join groups.
-* User can create new tasks.
-* User can assign tasks.
-* User can mark task as completed.
+(Unit 10 Update: Layout files created. Front end of all of the stories done. GIFs can be find here: https://github.com/fourEyesSquad/Roomie/tree/main/GIFs)
+- [ ] User can sign up
+- [ ] User can login and logout.
+- [ ] User can create groups.
+- [ ] User can join groups.
+- [ ] User can create new tasks.
+- [ ] User can assign tasks.
+- [ ] User can mark task as completed.
 
 **Optional Nice-to-have Stories**
 
-* User can create recurring tasks.
-* User can receive notifications and reminders of their tasks.
-* User can be assigned reward points based on tasks completed.
-* User can have access to task history.
-* User can edit tasks.
+- [ ] User can create recurring tasks.
+- [ ] User can receive notifications and reminders of their tasks.
+- [ ] User can be assigned reward points based on tasks completed.
+- [ ] User can have access to task history.
+- [ ] User can edit tasks.
 
 ### 2. Screen Archetypes
 

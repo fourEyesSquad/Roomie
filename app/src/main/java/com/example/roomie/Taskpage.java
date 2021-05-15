@@ -1,14 +1,18 @@
 package com.example.roomie;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-// THis is just for testing pull request
-public class MainActivity extends AppCompatActivity {
+
+public class Taskpage extends AppCompatActivity {
+
+    RecyclerView rvTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_taskpage);
+        rvTask = findViewById(R.id.rvTask);
     }
 }
