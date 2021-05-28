@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Task extends AppCompatActivity {
+
+// TODO: We need to be clear whether to extend AppCompatActivity or ParseObject in Task. ParseObject type is required for ParseApplication line 13.
+
+public class Task extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 // Need to create ParseApplication Class after creating the project in Back4App-- only then the import will work and ParseUser can be implemented.
+import com.parse.LogInCallback;
 import com.parse.ParseUser;
 
 import java.text.ParseException;
@@ -78,8 +79,8 @@ public class LoginActivity extends AppCompatActivity {
     private void loginUser(String username, String password) {
         Log.i(TAG, "Attempting to login user " + username);
         ParseUser.logInInBackground(username, password, new LogInCallback() {
-            //@Override
-            public void done(ParseUser user, ParseException e) {
+            @Override
+            public void done(ParseUser user, com.parse.ParseException e) {
                 if (e != null) {
                     Log.e(TAG, "Issue with login", e);
                     Toast.makeText(LoginActivity.this, "Issue with login!", Toast.LENGTH_SHORT).show();
