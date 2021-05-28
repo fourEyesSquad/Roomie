@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
     private void loginUser(String username, String password) {
         Log.i(TAG, "Attempting to login user " + username);
         ParseUser.logInInBackground(username, password, new LogInCallback() {
-            @Override
+            //@Override
             public void done(ParseUser user, ParseException e) {
                 if (e != null) {
                     Log.e(TAG, "Issue with login", e);
